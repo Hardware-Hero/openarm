@@ -60,7 +60,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/enactic/openarm/tree/main/website/',
+            'https://github.com/Hardware-Hero/openarm/tree/main/website/',
         },
         blog: {
           showReadingTime: true,
@@ -71,7 +71,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/enactic/openarm/tree/main/website/',
+            'https://github.com/Hardware-Hero/openarm/tree/main/website/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -127,7 +127,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/enactic/openarm',
+          href: 'https://github.com/Hardware-Hero/openarm',
           label: 'GitHub',
           position: 'right',
         },
@@ -183,7 +183,7 @@ const config: Config = {
             // },
             {
               label: 'GitHub',
-              href: 'https://github.com/enactic/openarm',
+              href: 'https://github.com/Hardware-Hero/openarm',
             },
           ],
         },
