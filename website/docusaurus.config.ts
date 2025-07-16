@@ -97,9 +97,33 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'gettingstartedSidebar',
+          position: 'left',
+          label: 'Getting started',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'hardwareSidebar',
           position: 'left',
           label: 'Hardware',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'softwareSidebar',
+          position: 'left',
+          label: 'Software',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'teleopSidebar',
+          position: 'left',
+          label: 'Teleop',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'simulationSidebar',
+          position: 'left',
+          label: 'Simulation',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -122,6 +146,18 @@ const config: Config = {
             {
               label: 'Hardware',
               to: '/hardware/introduction',
+            },
+            {
+              label: 'Software',
+              to: '/software/set-up-guide',
+            },
+            {
+              label: 'Teleop',
+              to: '/teleop/set-up-guide',
+            },
+            {
+              label: 'Simulation',
+              to: '/simulation/isaac-lab',
             },
           ],
         },
